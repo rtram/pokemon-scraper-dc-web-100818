@@ -26,7 +26,8 @@ class Pokemon
     
     row = db.execute(sql, id)[0]
     # binding.pry
-    Pokemon.new(row[0],row[1],row[2], db)
+    pikachu = Pokemon.new(row[0],row[1],row[2], db)
+    pikachu
   end 
 
 end
