@@ -26,8 +26,7 @@ class Pokemon
     
     db.execute(sql, id)[0][0]
     binding.pry
-        Pokemon.new()
-
+    Pokemon.new()
   end 
 
 end
