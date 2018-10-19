@@ -25,7 +25,7 @@ class Pokemon
     SQL
     
     db.execute(sql, id)[0][0]
-    binding.pry
+    # binding.pry
   end 
 
 end
